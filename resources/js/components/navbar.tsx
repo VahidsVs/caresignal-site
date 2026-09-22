@@ -16,7 +16,7 @@ export function Navbar({ locale, copy, urls }: { locale: Locale; copy: SiteCopy;
             <div className="mx-auto max-w-7xl rounded-2xl border border-white/70 bg-white/80 px-4 shadow-[0_10px_40px_rgba(14,42,76,0.08)] backdrop-blur-xl sm:px-6">
                 <div className="flex h-16 items-center justify-between">
                     <a href="#top" className="flex items-center gap-3" aria-label="CareSignal AI">
-                        <img src="/images/caresignal-logo.png" alt="CareSignal AI" className="h-9 w-[180px] object-cover object-center sm:w-[220px]" />
+                        <img src="/images/caresignal-logo.png" alt="CareSignal AI" className="h-10 w-[180px] object-cover object-center sm:w-[220px]" />
                     </a>
 
                     <nav className="hidden items-center gap-7 lg:flex">
